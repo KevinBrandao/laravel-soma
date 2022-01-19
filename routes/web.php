@@ -1,6 +1,6 @@
 <?php
 
-use App\Http\Controllers\CalculadoraController;
+use App\Http\Controllers\pokemonController;
 use Illuminate\Support\Facades\Route;
 
 /*

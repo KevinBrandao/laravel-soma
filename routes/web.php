@@ -14,6 +14,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/calculadora', [CalculadoraController::class, 'calculadora']);
+Route::get('/pokemon/{nome}', [pokemonController::class, 'pokemon']);
 
-Route::post('/soma', [CalculadoraController::class, 'soma']);
+//Route::post('/soma', [CalculadoraController::class, 'soma']);
